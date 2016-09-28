@@ -1,6 +1,35 @@
 @charset "UTF-8";
 @import url(http://fonts.googleapis.com/css?family=Oxygen+Mono);
-
+/* SHAREPOINT PAGE TEMPLATE ADJUSTMENTS */
+.ms-siteicon-img {
+display:none;
+}
+.ms-srch-sb {
+display:none;
+}
+.ms-core-listMenu-horizontalBox {
+display:none;
+}
+.ms-breadcrumb-box {
+display:none;
+}
+#titlerow {
+display:none;
+}
+h1.ms-core-pageTitle {
+display:none;
+}
+#sideNavBox {
+display:none;
+}
+#contentBox {
+margin-left:50px;
+margin-right:50px;
+}
+#DeltaPlaceHolderMain {
+margin-top:-180px;
+}
+/* HORIZONTAL CSS MENU WITH DROPDOWN */
 #cssmenu {
 padding: 0; 
 margin: 0; 
